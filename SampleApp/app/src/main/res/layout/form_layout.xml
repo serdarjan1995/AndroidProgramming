@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextPersonalId"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/editTextDescription" />
+
+    <TextView
+        android:text="Personal ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/editTextDescription"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextDescription"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/editTextHeader"
+        android:layout_alignStart="@+id/textView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:id="@+id/editTextHeader"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextDescription" />
+
+    <TextView
+        android:text="Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/editTextHeader"
+        android:layout_alignBottom="@+id/editTextHeader"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextPhoneNo"
+        android:layout_below="@+id/editTextPersonalId"
+        android:layout_alignStart="@+id/editTextPersonalId"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:text="Phone No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/editTextPhoneNo"
+        android:layout_alignBottom="@+id/editTextPhoneNo"
+        android:layout_alignStart="@+id/textView6" />
+
+    <Button
+        android:text="Close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonsubmit"
+        android:layout_alignStart="@+id/buttonsubmit"
+        android:layout_marginTop="27dp"
+        android:id="@+id/buttonQuit" />
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/buttonsubmit"
+        android:layout_below="@+id/editTextPhoneNo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Show Database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/buttonDbShow"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

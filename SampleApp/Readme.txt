@@ -1,0 +1,1 @@
+Sample Login application. Working with SQLite.

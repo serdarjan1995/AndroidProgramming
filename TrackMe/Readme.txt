@@ -1,0 +1,1 @@
+App that draws colored lines according to user's activity to google map api. 
